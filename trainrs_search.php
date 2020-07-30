@@ -9,7 +9,8 @@ if(isset($_POST['patient_search_submit']))
 {    $contact=$_POST['search'];
      $query="select * from doctorapp where contact='$contact'";
     $result=mysqli_query($con,$query);
-    echo "<div class='container-fluid' style='margin-top:50px;'>
+    echo "<div class='container-fluid' 
+    style='margin-top:50px;'>
     <div class'card'>
     <div class='card-body'><a href='trainer_details.php' class='btn brn-light'>Go Back</a>
 		</div>
