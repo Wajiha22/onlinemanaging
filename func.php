@@ -52,7 +52,7 @@ if(isset($_POST['pat_submit'])){
             }
  function get_trainer_details(){
     global $con;
-    $query="select * from doctorapp";
+    $query="select * from gymapp";
     $result=mysqli_query($con,$query);
     while ($row=mysqli_fetch_array($result)){
          $fname=$row ['fname'];
