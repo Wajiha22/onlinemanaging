@@ -69,15 +69,14 @@ $result1 = mysqli_query($connect, $query);
       <nav>
      <div class="main-wrapper">
 		       <div class="nav-login">
-			       <?php
-				        if (isset($_SESSION['u_id'])) {
-						  echo '<form action="includes/index.php" method="POST">
-					            <button type="submit" name="submit">logout</button>
-					              </form>';}
-                        else{
-							echo '<form action="includes/index.php" method="POST">
-				                </form>
-				              <a href="index.php" class="btn btn-light" style="background-color:#3498DB;color:FFFFFF">Logout</a>';}?>
+			       <?php if (isset($_SESSION['u_id'])) {
+			echo '<form action="includes/index.php" method="POST">
+			<button type="submit" name="submit">logout</button>
+		</form>';}
+                        else{			
+			echo '<form action="includes/index.php" method="POST">
+                     </form>
+		     <a href="index.php" class="btn btn-light" style="background-color:#3498DB;color:FFFFFF">Logout</a>';}?>
 		       </div>
 	 </div>
  </nav>
