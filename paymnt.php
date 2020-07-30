@@ -16,7 +16,8 @@
              <div class="col-md-1">
     			 	<a href="admin-panel.php" class="btn btn-light ">Go Back</a>
              </div>
-             <div class="col-md-3"><h3>Payment Details</h3></div>
+             <div class="col-md-3"><h3>Payment Details</h3>
+		 </div>
              <div class="col-md-8">
          <form class="form-group" action="patient_search.php" method="post">
           <div class="row">
@@ -40,7 +41,7 @@
         </tbody>
     </table>
     <div class="card-body"
-		style="background-color:#3498DB;	color:#ffffff;">
+		style="background-color:#3498DB;  color:#ffffff;">
 	<h3>Make New Payment</h3>
   </div>
     <div class="card-body">
